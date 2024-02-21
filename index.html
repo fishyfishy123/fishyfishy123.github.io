@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+  <head>
+    <script>
+      // Function to redirect to a random URL from a list
+      var urls = [
+          'https://example1.com',
+          'https://example2.com',
+          'https://example3.com'
+        ];
+      window.onload = function() {
+        window.location.href = urls[Math.floor(Math.random() * urls.length)];
+      };
+    </script>
+  </head>
+</html>
